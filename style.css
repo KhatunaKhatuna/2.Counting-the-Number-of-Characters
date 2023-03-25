@@ -1,0 +1,65 @@
+.container {
+  background-color: rgb(39, 74, 104, 0.7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__card {
+  background-color: azure;
+  width: 320px;
+  height: 410px;
+  border-radius: 15px;
+  padding: 26px;
+}
+
+h1 {
+  color: rgb(5, 48, 88);
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
+
+.card__textInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.textInput--lable {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.textInput--input {
+  border: solid gray 2px;
+  border-radius: 25px;
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(5, 48, 88);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.textInput--input:focus {
+  width: 250px;
+  border: solid rgb(47, 75, 68) 2px;
+  box-shadow: rgb(47, 75, 68) 6px 2px 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(5, 48, 88);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card--output {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
